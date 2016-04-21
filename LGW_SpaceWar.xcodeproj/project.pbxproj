@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD6D2F251CC629F900401BF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D2F241CC629F900401BF4 /* main.m */; };
+		FD6D2F281CC629F900401BF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D2F271CC629F900401BF4 /* AppDelegate.m */; };
+		FD6D2F2E1CC629F900401BF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6D2F2C1CC629F900401BF4 /* Main.storyboard */; };
+		FD6D2F301CC629F900401BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6D2F2F1CC629F900401BF4 /* Assets.xcassets */; };
+		FD6D2F331CC629F900401BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6D2F311CC629F900401BF4 /* LaunchScreen.storyboard */; };
+		FD6D2F3E1CC629F900401BF4 /* LGW_SpaceWarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D2F3D1CC629F900401BF4 /* LGW_SpaceWarTests.m */; };
+		FD6D2F491CC629F900401BF4 /* LGW_SpaceWarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D2F481CC629F900401BF4 /* LGW_SpaceWarUITests.m */; };
+		FDDC78451CC6730200845007 /* SpaceWarCopyWechatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDDC78441CC6730200845007 /* SpaceWarCopyWechatViewController.m */; };
+		FDDC78471CC68A8700845007 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDC78461CC68A8700845007 /* SpriteKit.framework */; };
+		FDDC78491CC68A9100845007 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDC78481CC68A9100845007 /* UIKit.framework */; };
+		FDDC784B1CC68AA400845007 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDC784A1CC68AA400845007 /* QuartzCore.framework */; };
+		FDDC784D1CC68AAA00845007 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDC784C1CC68AAA00845007 /* Foundation.framework */; };
+		FDDC784F1CC68AB400845007 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDDC784E1CC68AB400845007 /* CoreGraphics.framework */; };
+		FDF893201CC62E2200F564AC /* bullet.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDF893151CC62E2200F564AC /* bullet.mp3 */; };
+		FDF893211CC62E2200F564AC /* BurstAircraftPause.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF893161CC62E2200F564AC /* BurstAircraftPause.png */; };
+		FDF893221CC62E2200F564AC /* BurstAircraftPause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF893171CC62E2200F564AC /* BurstAircraftPause@2x.png */; };
+		FDF893231CC62E2200F564AC /* enemy1_down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDF893181CC62E2200F564AC /* enemy1_down.mp3 */; };
+		FDF893241CC62E2200F564AC /* enemy2_down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDF893191CC62E2200F564AC /* enemy2_down.mp3 */; };
+		FDF893251CC62E2200F564AC /* enemy2_out.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDF8931A1CC62E2200F564AC /* enemy2_out.mp3 */; };
+		FDF893261CC62E2200F564AC /* enemy3_down.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDF8931B1CC62E2200F564AC /* enemy3_down.mp3 */; };
+		FDF893271CC62E2200F564AC /* game_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDF8931C1CC62E2200F564AC /* game_music.mp3 */; };
+		FDF893281CC62E2200F564AC /* game_over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDF8931D1CC62E2200F564AC /* game_over.mp3 */; };
+		FDF893291CC62E2200F564AC /* gameArts-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDF8931E1CC62E2200F564AC /* gameArts-hd.plist */; };
+		FDF8932A1CC62E2200F564AC /* gameArts-hd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF8931F1CC62E2200F564AC /* gameArts-hd@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FD6D2F3A1CC629F900401BF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD6D2F181CC629F900401BF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD6D2F1F1CC629F900401BF4;
+			remoteInfo = LGW_SpaceWar;
+		};
+		FD6D2F451CC629F900401BF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD6D2F181CC629F900401BF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD6D2F1F1CC629F900401BF4;
+			remoteInfo = LGW_SpaceWar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FD6D2F201CC629F900401BF4 /* LGW_SpaceWar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LGW_SpaceWar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6D2F241CC629F900401BF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD6D2F261CC629F900401BF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FD6D2F271CC629F900401BF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FD6D2F2D1CC629F900401BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD6D2F2F1CC629F900401BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
+		FD6D2F321CC629F900401BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD6D2F341CC629F900401BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		FD6D2F391CC629F900401BF4 /* LGW_SpaceWarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGW_SpaceWarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6D2F3D1CC629F900401BF4 /* LGW_SpaceWarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGW_SpaceWarTests.m; sourceTree = "<group>"; };
+		FD6D2F3F1CC629F900401BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6D2F441CC629F900401BF4 /* LGW_SpaceWarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGW_SpaceWarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD6D2F481CC629F900401BF4 /* LGW_SpaceWarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LGW_SpaceWarUITests.m; sourceTree = "<group>"; };
+		FD6D2F4A1CC629F900401BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDDC78431CC6730200845007 /* SpaceWarCopyWechatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpaceWarCopyWechatViewController.h; sourceTree = "<group>"; };
+		FDDC78441CC6730200845007 /* SpaceWarCopyWechatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpaceWarCopyWechatViewController.m; sourceTree = "<group>"; };
+		FDDC78461CC68A8700845007 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		FDDC78481CC68A9100845007 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDDC784A1CC68AA400845007 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FDDC784C1CC68AAA00845007 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDDC784E1CC68AB400845007 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDF893151CC62E2200F564AC /* bullet.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bullet.mp3; sourceTree = "<group>"; };
+		FDF893161CC62E2200F564AC /* BurstAircraftPause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BurstAircraftPause.png; sourceTree = "<group>"; };
+		FDF893171CC62E2200F564AC /* BurstAircraftPause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BurstAircraftPause@2x.png"; sourceTree = "<group>"; };
+		FDF893181CC62E2200F564AC /* enemy1_down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = enemy1_down.mp3; sourceTree = "<group>"; };
+		FDF893191CC62E2200F564AC /* enemy2_down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = enemy2_down.mp3; sourceTree = "<group>"; };
+		FDF8931A1CC62E2200F564AC /* enemy2_out.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = enemy2_out.mp3; sourceTree = "<group>"; };
+		FDF8931B1CC62E2200F564AC /* enemy3_down.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = enemy3_down.mp3; sourceTree = "<group>"; };
+		FDF8931C1CC62E2200F564AC /* game_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game_music.mp3; sourceTree = "<group>"; };
+		FDF8931D1CC62E2200F564AC /* game_over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game_over.mp3; sourceTree = "<group>"; };
+		FDF8931E1CC62E2200F564AC /* gameArts-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "gameArts-hd.plist"; sourceTree = "<group>"; };
+		FDF8931F1CC62E2200F564AC /* gameArts-hd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameArts-hd@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD6D2F1D1CC629F900401BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDC784F1CC68AB400845007 /* CoreGraphics.framework in Frameworks */,
+				FDDC784D1CC68AAA00845007 /* Foundation.framework in Frameworks */,
+				FDDC784B1CC68AA400845007 /* QuartzCore.framework in Frameworks */,
+				FDDC78491CC68A9100845007 /* UIKit.framework in Frameworks */,
+				FDDC78471CC68A8700845007 /* SpriteKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6D2F361CC629F900401BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6D2F411CC629F900401BF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD6D2F171CC629F900401BF4 = {
+			isa = PBXGroup;
+			children = (
+				FD6D2F221CC629F900401BF4 /* LGW_SpaceWar */,
+				FD6D2F3C1CC629F900401BF4 /* LGW_SpaceWarTests */,
+				FD6D2F471CC629F900401BF4 /* LGW_SpaceWarUITests */,
+				FD6D2F211CC629F900401BF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD6D2F211CC629F900401BF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD6D2F201CC629F900401BF4 /* LGW_SpaceWar.app */,
+				FD6D2F391CC629F900401BF4 /* LGW_SpaceWarTests.xctest */,
+				FD6D2F441CC629F900401BF4 /* LGW_SpaceWarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD6D2F221CC629F900401BF4 /* LGW_SpaceWar */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC78411CC6729400845007 /* Classes */,
+				FDF893141CC62E2200F564AC /* Resources */,
+				FD6D2F231CC629F900401BF4 /* Supporting Files */,
+			);
+			path = LGW_SpaceWar;
+			sourceTree = "<group>";
+		};
+		FD6D2F231CC629F900401BF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC784E1CC68AB400845007 /* CoreGraphics.framework */,
+				FDDC784C1CC68AAA00845007 /* Foundation.framework */,
+				FDDC784A1CC68AA400845007 /* QuartzCore.framework */,
+				FDDC78481CC68A9100845007 /* UIKit.framework */,
+				FDDC78461CC68A8700845007 /* SpriteKit.framework */,
+				FD6D2F241CC629F900401BF4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD6D2F3C1CC629F900401BF4 /* LGW_SpaceWarTests */ = {
+			isa = PBXGroup;
+			children = (
+				FD6D2F3D1CC629F900401BF4 /* LGW_SpaceWarTests.m */,
+				FD6D2F3F1CC629F900401BF4 /* Info.plist */,
+			);
+			path = LGW_SpaceWarTests;
+			sourceTree = "<group>";
+		};
+		FD6D2F471CC629F900401BF4 /* LGW_SpaceWarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FD6D2F481CC629F900401BF4 /* LGW_SpaceWarUITests.m */,
+				FD6D2F4A1CC629F900401BF4 /* Info.plist */,
+			);
+			path = LGW_SpaceWarUITests;
+			sourceTree = "<group>";
+		};
+		FDDC78411CC6729400845007 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FD6D2F261CC629F900401BF4 /* AppDelegate.h */,
+				FD6D2F271CC629F900401BF4 /* AppDelegate.m */,
+				FDDC78421CC672BF00845007 /* SpaceWarCopyWechat */,
+				FD6D2F2C1CC629F900401BF4 /* Main.storyboard */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		FDDC78421CC672BF00845007 /* SpaceWarCopyWechat */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC78431CC6730200845007 /* SpaceWarCopyWechatViewController.h */,
+				FDDC78441CC6730200845007 /* SpaceWarCopyWechatViewController.m */,
+			);
+			name = SpaceWarCopyWechat;
+			sourceTree = "<group>";
+		};
+		FDF893141CC62E2200F564AC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD6D2F2F1CC629F900401BF4 /* Assets.xcassets */,
+				FD6D2F311CC629F900401BF4 /* LaunchScreen.storyboard */,
+				FD6D2F341CC629F900401BF4 /* Info.plist */,
+				FDF893151CC62E2200F564AC /* bullet.mp3 */,
+				FDF893161CC62E2200F564AC /* BurstAircraftPause.png */,
+				FDF893171CC62E2200F564AC /* BurstAircraftPause@2x.png */,
+				FDF893181CC62E2200F564AC /* enemy1_down.mp3 */,
+				FDF893191CC62E2200F564AC /* enemy2_down.mp3 */,
+				FDF8931A1CC62E2200F564AC /* enemy2_out.mp3 */,
+				FDF8931B1CC62E2200F564AC /* enemy3_down.mp3 */,
+				FDF8931C1CC62E2200F564AC /* game_music.mp3 */,
+				FDF8931D1CC62E2200F564AC /* game_over.mp3 */,
+				FDF8931E1CC62E2200F564AC /* gameArts-hd.plist */,
+				FDF8931F1CC62E2200F564AC /* gameArts-hd@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD6D2F1F1CC629F900401BF4 /* LGW_SpaceWar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6D2F4D1CC629F900401BF4 /* Build configuration list for PBXNativeTarget "LGW_SpaceWar" */;
+			buildPhases = (
+				FD6D2F1C1CC629F900401BF4 /* Sources */,
+				FD6D2F1D1CC629F900401BF4 /* Frameworks */,
+				FD6D2F1E1CC629F900401BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LGW_SpaceWar;
+			productName = LGW_SpaceWar;
+			productReference = FD6D2F201CC629F900401BF4 /* LGW_SpaceWar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FD6D2F381CC629F900401BF4 /* LGW_SpaceWarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6D2F501CC629F900401BF4 /* Build configuration list for PBXNativeTarget "LGW_SpaceWarTests" */;
+			buildPhases = (
+				FD6D2F351CC629F900401BF4 /* Sources */,
+				FD6D2F361CC629F900401BF4 /* Frameworks */,
+				FD6D2F371CC629F900401BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD6D2F3B1CC629F900401BF4 /* PBXTargetDependency */,
+			);
+			name = LGW_SpaceWarTests;
+			productName = LGW_SpaceWarTests;
+			productReference = FD6D2F391CC629F900401BF4 /* LGW_SpaceWarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FD6D2F431CC629F900401BF4 /* LGW_SpaceWarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD6D2F531CC629F900401BF4 /* Build configuration list for PBXNativeTarget "LGW_SpaceWarUITests" */;
+			buildPhases = (
+				FD6D2F401CC629F900401BF4 /* Sources */,
+				FD6D2F411CC629F900401BF4 /* Frameworks */,
+				FD6D2F421CC629F900401BF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FD6D2F461CC629F900401BF4 /* PBXTargetDependency */,
+			);
+			name = LGW_SpaceWarUITests;
+			productName = LGW_SpaceWarUITests;
+			productReference = FD6D2F441CC629F900401BF4 /* LGW_SpaceWarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD6D2F181CC629F900401BF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "第七代目";
+				TargetAttributes = {
+					FD6D2F1F1CC629F900401BF4 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					FD6D2F381CC629F900401BF4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FD6D2F1F1CC629F900401BF4;
+					};
+					FD6D2F431CC629F900401BF4 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = FD6D2F1F1CC629F900401BF4;
+					};
+				};
+			};
+			buildConfigurationList = FD6D2F1B1CC629F900401BF4 /* Build configuration list for PBXProject "LGW_SpaceWar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD6D2F171CC629F900401BF4;
+			productRefGroup = FD6D2F211CC629F900401BF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD6D2F1F1CC629F900401BF4 /* LGW_SpaceWar */,
+				FD6D2F381CC629F900401BF4 /* LGW_SpaceWarTests */,
+				FD6D2F431CC629F900401BF4 /* LGW_SpaceWarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD6D2F1E1CC629F900401BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF893221CC62E2200F564AC /* BurstAircraftPause@2x.png in Resources */,
+				FDF893261CC62E2200F564AC /* enemy3_down.mp3 in Resources */,
+				FDF893201CC62E2200F564AC /* bullet.mp3 in Resources */,
+				FDF893231CC62E2200F564AC /* enemy1_down.mp3 in Resources */,
+				FDF8932A1CC62E2200F564AC /* gameArts-hd@2x.png in Resources */,
+				FD6D2F331CC629F900401BF4 /* LaunchScreen.storyboard in Resources */,
+				FDF893271CC62E2200F564AC /* game_music.mp3 in Resources */,
+				FDF893251CC62E2200F564AC /* enemy2_out.mp3 in Resources */,
+				FDF893291CC62E2200F564AC /* gameArts-hd.plist in Resources */,
+				FDF893241CC62E2200F564AC /* enemy2_down.mp3 in Resources */,
+				FDF893281CC62E2200F564AC /* game_over.mp3 in Resources */,
+				FD6D2F301CC629F900401BF4 /* Assets.xcassets in Resources */,
+				FD6D2F2E1CC629F900401BF4 /* Main.storyboard in Resources */,
+				FDF893211CC62E2200F564AC /* BurstAircraftPause.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6D2F371CC629F900401BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6D2F421CC629F900401BF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD6D2F1C1CC629F900401BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6D2F281CC629F900401BF4 /* AppDelegate.m in Sources */,
+				FD6D2F251CC629F900401BF4 /* main.m in Sources */,
+				FDDC78451CC6730200845007 /* SpaceWarCopyWechatViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6D2F351CC629F900401BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6D2F3E1CC629F900401BF4 /* LGW_SpaceWarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD6D2F401CC629F900401BF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD6D2F491CC629F900401BF4 /* LGW_SpaceWarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FD6D2F3B1CC629F900401BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD6D2F1F1CC629F900401BF4 /* LGW_SpaceWar */;
+			targetProxy = FD6D2F3A1CC629F900401BF4 /* PBXContainerItemProxy */;
+		};
+		FD6D2F461CC629F900401BF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD6D2F1F1CC629F900401BF4 /* LGW_SpaceWar */;
+			targetProxy = FD6D2F451CC629F900401BF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FD6D2F2C1CC629F900401BF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6D2F2D1CC629F900401BF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD6D2F311CC629F900401BF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD6D2F321CC629F900401BF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD6D2F4B1CC629F900401BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FD6D2F4C1CC629F900401BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD6D2F4E1CC629F900401BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGW_SpaceWar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-SpaceWar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD6D2F4F1CC629F900401BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LGW_SpaceWar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-SpaceWar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FD6D2F511CC629F900401BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGW_SpaceWarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-SpaceWarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGW_SpaceWar.app/LGW_SpaceWar";
+			};
+			name = Debug;
+		};
+		FD6D2F521CC629F900401BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LGW_SpaceWarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-SpaceWarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LGW_SpaceWar.app/LGW_SpaceWar";
+			};
+			name = Release;
+		};
+		FD6D2F541CC629F900401BF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGW_SpaceWarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-SpaceWarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGW_SpaceWar;
+			};
+			name = Debug;
+		};
+		FD6D2F551CC629F900401BF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LGW_SpaceWarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-SpaceWarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LGW_SpaceWar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD6D2F1B1CC629F900401BF4 /* Build configuration list for PBXProject "LGW_SpaceWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6D2F4B1CC629F900401BF4 /* Debug */,
+				FD6D2F4C1CC629F900401BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6D2F4D1CC629F900401BF4 /* Build configuration list for PBXNativeTarget "LGW_SpaceWar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6D2F4E1CC629F900401BF4 /* Debug */,
+				FD6D2F4F1CC629F900401BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6D2F501CC629F900401BF4 /* Build configuration list for PBXNativeTarget "LGW_SpaceWarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6D2F511CC629F900401BF4 /* Debug */,
+				FD6D2F521CC629F900401BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD6D2F531CC629F900401BF4 /* Build configuration list for PBXNativeTarget "LGW_SpaceWarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD6D2F541CC629F900401BF4 /* Debug */,
+				FD6D2F551CC629F900401BF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD6D2F181CC629F900401BF4 /* Project object */;
+}
