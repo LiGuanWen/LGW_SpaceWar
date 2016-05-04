@@ -10,7 +10,6 @@
 		FD6D2F251CC629F900401BF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D2F241CC629F900401BF4 /* main.m */; };
 		FD6D2F281CC629F900401BF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D2F271CC629F900401BF4 /* AppDelegate.m */; };
 		FD6D2F2E1CC629F900401BF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6D2F2C1CC629F900401BF4 /* Main.storyboard */; };
-		FD6D2F301CC629F900401BF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD6D2F2F1CC629F900401BF4 /* Assets.xcassets */; };
 		FD6D2F331CC629F900401BF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6D2F311CC629F900401BF4 /* LaunchScreen.storyboard */; };
 		FD6D2F3E1CC629F900401BF4 /* LGW_SpaceWarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D2F3D1CC629F900401BF4 /* LGW_SpaceWarTests.m */; };
 		FD6D2F491CC629F900401BF4 /* LGW_SpaceWarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6D2F481CC629F900401BF4 /* LGW_SpaceWarUITests.m */; };
@@ -31,6 +30,13 @@
 		FDF893281CC62E2200F564AC /* game_over.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDF8931D1CC62E2200F564AC /* game_over.mp3 */; };
 		FDF893291CC62E2200F564AC /* gameArts-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDF8931E1CC62E2200F564AC /* gameArts-hd.plist */; };
 		FDF8932A1CC62E2200F564AC /* gameArts-hd@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDF8931F1CC62E2200F564AC /* gameArts-hd@2x.png */; };
+		FDFD5D051CD9F354009C516E /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFD5D041CD9F354009C516E /* MediaPlayer.framework */; };
+		FDFD5D071CDA23D3009C516E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDFD5D061CDA23D3009C516E /* Assets.xcassets */; };
+		FDFD5D0C1CDA3268009C516E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDFD5D0E1CDA3268009C516E /* InfoPlist.strings */; };
+		FDFD5D181CDA33D5009C516E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FDFD5D1A1CDA33D5009C516E /* Localizable.strings */; };
+		FDFF822F1CD9D5D300C5054F /* SKFoePlane.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFF822A1CD9D5D300C5054F /* SKFoePlane.m */; };
+		FDFF82301CD9D5D300C5054F /* SKMainScene.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFF822C1CD9D5D300C5054F /* SKMainScene.m */; };
+		FDFF82311CD9D5D300C5054F /* SKSharedAtles.m in Sources */ = {isa = PBXBuildFile; fileRef = FDFF822E1CD9D5D300C5054F /* SKSharedAtles.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +62,6 @@
 		FD6D2F261CC629F900401BF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD6D2F271CC629F900401BF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FD6D2F2D1CC629F900401BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FD6D2F2F1CC629F900401BF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		FD6D2F321CC629F900401BF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD6D2F341CC629F900401BF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		FD6D2F391CC629F900401BF4 /* LGW_SpaceWarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LGW_SpaceWarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +88,20 @@
 		FDF8931D1CC62E2200F564AC /* game_over.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = game_over.mp3; sourceTree = "<group>"; };
 		FDF8931E1CC62E2200F564AC /* gameArts-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "gameArts-hd.plist"; sourceTree = "<group>"; };
 		FDF8931F1CC62E2200F564AC /* gameArts-hd@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "gameArts-hd@2x.png"; sourceTree = "<group>"; };
+		FDFD5D041CD9F354009C516E /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		FDFD5D061CDA23D3009C516E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = LGW_SpaceWar/Assets.xcassets; sourceTree = "<group>"; };
+		FDFD5D0A1CDA324C009C516E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		FDFD5D0B1CDA324C009C516E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		FDFD5D0F1CDA326C009C516E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FDFD5D101CDA326C009C516E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		FDFD5D191CDA33D5009C516E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FDFD5D1B1CDA33D6009C516E /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		FDFF82291CD9D5D300C5054F /* SKFoePlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKFoePlane.h; sourceTree = "<group>"; };
+		FDFF822A1CD9D5D300C5054F /* SKFoePlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKFoePlane.m; sourceTree = "<group>"; };
+		FDFF822B1CD9D5D300C5054F /* SKMainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKMainScene.h; sourceTree = "<group>"; };
+		FDFF822C1CD9D5D300C5054F /* SKMainScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKMainScene.m; sourceTree = "<group>"; };
+		FDFF822D1CD9D5D300C5054F /* SKSharedAtles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKSharedAtles.h; sourceTree = "<group>"; };
+		FDFF822E1CD9D5D300C5054F /* SKSharedAtles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKSharedAtles.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDFD5D051CD9F354009C516E /* MediaPlayer.framework in Frameworks */,
 				FDDC784F1CC68AB400845007 /* CoreGraphics.framework in Frameworks */,
 				FDDC784D1CC68AAA00845007 /* Foundation.framework in Frameworks */,
 				FDDC784B1CC68AA400845007 /* QuartzCore.framework in Frameworks */,
@@ -118,6 +138,7 @@
 		FD6D2F171CC629F900401BF4 = {
 			isa = PBXGroup;
 			children = (
+				FDFD5D061CDA23D3009C516E /* Assets.xcassets */,
 				FD6D2F221CC629F900401BF4 /* LGW_SpaceWar */,
 				FD6D2F3C1CC629F900401BF4 /* LGW_SpaceWarTests */,
 				FD6D2F471CC629F900401BF4 /* LGW_SpaceWarUITests */,
@@ -148,6 +169,7 @@
 		FD6D2F231CC629F900401BF4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FDFD5D041CD9F354009C516E /* MediaPlayer.framework */,
 				FDDC784E1CC68AB400845007 /* CoreGraphics.framework */,
 				FDDC784C1CC68AAA00845007 /* Foundation.framework */,
 				FDDC784A1CC68AA400845007 /* QuartzCore.framework */,
@@ -192,6 +214,7 @@
 			children = (
 				FDDC78431CC6730200845007 /* SpaceWarCopyWechatViewController.h */,
 				FDDC78441CC6730200845007 /* SpaceWarCopyWechatViewController.m */,
+				FDFF82321CD9D5D800C5054F /* SK */,
 			);
 			name = SpaceWarCopyWechat;
 			sourceTree = "<group>";
@@ -199,7 +222,6 @@
 		FDF893141CC62E2200F564AC /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				FD6D2F2F1CC629F900401BF4 /* Assets.xcassets */,
 				FD6D2F311CC629F900401BF4 /* LaunchScreen.storyboard */,
 				FD6D2F341CC629F900401BF4 /* Info.plist */,
 				FDF893151CC62E2200F564AC /* bullet.mp3 */,
@@ -213,8 +235,23 @@
 				FDF8931D1CC62E2200F564AC /* game_over.mp3 */,
 				FDF8931E1CC62E2200F564AC /* gameArts-hd.plist */,
 				FDF8931F1CC62E2200F564AC /* gameArts-hd@2x.png */,
+				FDFD5D0E1CDA3268009C516E /* InfoPlist.strings */,
+				FDFD5D1A1CDA33D5009C516E /* Localizable.strings */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		FDFF82321CD9D5D800C5054F /* SK */ = {
+			isa = PBXGroup;
+			children = (
+				FDFF82291CD9D5D300C5054F /* SKFoePlane.h */,
+				FDFF822A1CD9D5D300C5054F /* SKFoePlane.m */,
+				FDFF822B1CD9D5D300C5054F /* SKMainScene.h */,
+				FDFF822C1CD9D5D300C5054F /* SKMainScene.m */,
+				FDFF822D1CD9D5D300C5054F /* SKSharedAtles.h */,
+				FDFF822E1CD9D5D300C5054F /* SKSharedAtles.m */,
+			);
+			name = SK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,6 +339,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = FD6D2F171CC629F900401BF4;
 			productRefGroup = FD6D2F211CC629F900401BF4 /* Products */;
@@ -324,6 +362,8 @@
 				FDF893261CC62E2200F564AC /* enemy3_down.mp3 in Resources */,
 				FDF893201CC62E2200F564AC /* bullet.mp3 in Resources */,
 				FDF893231CC62E2200F564AC /* enemy1_down.mp3 in Resources */,
+				FDFD5D0C1CDA3268009C516E /* InfoPlist.strings in Resources */,
+				FDFD5D071CDA23D3009C516E /* Assets.xcassets in Resources */,
 				FDF8932A1CC62E2200F564AC /* gameArts-hd@2x.png in Resources */,
 				FD6D2F331CC629F900401BF4 /* LaunchScreen.storyboard in Resources */,
 				FDF893271CC62E2200F564AC /* game_music.mp3 in Resources */,
@@ -331,7 +371,7 @@
 				FDF893291CC62E2200F564AC /* gameArts-hd.plist in Resources */,
 				FDF893241CC62E2200F564AC /* enemy2_down.mp3 in Resources */,
 				FDF893281CC62E2200F564AC /* game_over.mp3 in Resources */,
-				FD6D2F301CC629F900401BF4 /* Assets.xcassets in Resources */,
+				FDFD5D181CDA33D5009C516E /* Localizable.strings in Resources */,
 				FD6D2F2E1CC629F900401BF4 /* Main.storyboard in Resources */,
 				FDF893211CC62E2200F564AC /* BurstAircraftPause.png in Resources */,
 			);
@@ -361,6 +401,9 @@
 				FD6D2F281CC629F900401BF4 /* AppDelegate.m in Sources */,
 				FD6D2F251CC629F900401BF4 /* main.m in Sources */,
 				FDDC78451CC6730200845007 /* SpaceWarCopyWechatViewController.m in Sources */,
+				FDFF822F1CD9D5D300C5054F /* SKFoePlane.m in Sources */,
+				FDFF82311CD9D5D300C5054F /* SKSharedAtles.m in Sources */,
+				FDFF82301CD9D5D300C5054F /* SKMainScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -400,6 +443,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				FD6D2F2D1CC629F900401BF4 /* Base */,
+				FDFD5D0A1CDA324C009C516E /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -408,9 +452,28 @@
 			isa = PBXVariantGroup;
 			children = (
 				FD6D2F321CC629F900401BF4 /* Base */,
+				FDFD5D0B1CDA324C009C516E /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		FDFD5D0E1CDA3268009C516E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDFD5D0F1CDA326C009C516E /* en */,
+				FDFD5D101CDA326C009C516E /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FDFD5D1A1CDA33D5009C516E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDFD5D191CDA33D5009C516E /* en */,
+				FDFD5D1B1CDA33D6009C516E /* zh-Hans */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -434,7 +497,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GuanWen Li (DDP4VPD895)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GuanWen Li (DDP4VPD895)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -453,9 +517,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "c040cbb0-62b8-40f3-8a5a-5e1cbda1d161";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -478,7 +543,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GuanWen Li (DDP4VPD895)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GuanWen Li (DDP4VPD895)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -491,8 +557,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "c040cbb0-62b8-40f3-8a5a-5e1cbda1d161";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -502,10 +569,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GuanWen Li (DDP4VPD895)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GuanWen Li (DDP4VPD895)";
 				INFOPLIST_FILE = LGW_SpaceWar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-SpaceWar";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diqidaimu.SpaceWar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c040cbb0-62b8-40f3-8a5a-5e1cbda1d161";
 			};
 			name = Debug;
 		};
@@ -513,10 +585,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GuanWen Li (DDP4VPD895)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GuanWen Li (DDP4VPD895)";
 				INFOPLIST_FILE = LGW_SpaceWar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.diqidaimu.LGW-SpaceWar";
+				PRODUCT_BUNDLE_IDENTIFIER = com.diqidaimu.SpaceWar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c040cbb0-62b8-40f3-8a5a-5e1cbda1d161";
 			};
 			name = Release;
 		};

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F40967078B39E8F5616BAF79794726E318CB7CF2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "F40967078B39E8F5616BAF79794726E318CB7CF2" : 0,
+    "45E4D9455C0EC64C12427D42868A957CDC4281B0" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7C7B8D7E-F52A-42BE-B87D-7B712A8F3689",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "F40967078B39E8F5616BAF79794726E318CB7CF2" : "LGW_SpaceWar\/",
+    "45E4D9455C0EC64C12427D42868A957CDC4281B0" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LGW_SpaceWar",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LGW_SpaceWar.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "192.168.0.26:iOS\/PPCar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "45E4D9455C0EC64C12427D42868A957CDC4281B0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/LiGuanWen\/LGW_SpaceWar.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F40967078B39E8F5616BAF79794726E318CB7CF2"
+    }
+  ]
+}

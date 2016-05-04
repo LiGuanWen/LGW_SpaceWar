@@ -1,0 +1,16 @@
+/* 
+  Localizable.strings
+  LGW_SpaceWar
+
+  Created by Lilong on 16/5/4.
+  Copyright © 2016年 第七代目. All rights reserved.
+*/
+
+continue = "Continue";
+restarting = "Restarting";
+highestScore = "TheHighestScore";
+useTime = "TheTimeUsed";
+highestScoreNO = "TheHighestScore:NO";
+useTimeNO = "TheTimeUsed:NO";
+points = "Points";
+seconds = "Seconds";

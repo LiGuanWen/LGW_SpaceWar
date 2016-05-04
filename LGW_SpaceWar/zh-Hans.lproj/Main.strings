@@ -1,0 +1,15 @@
+
+/* Class = "UILabel"; text = "所用时间：11"; ObjectID = "2fn-JM-sEz"; */
+"2fn-JM-sEz.text" = "所用时间：11";
+
+/* Class = "UIButton"; normalTitle = "重新开始"; ObjectID = "301-fW-sta"; */
+"301-fW-sta.normalTitle" = "重新开始";
+
+/* Class = "UIButton"; normalTitle = "继续"; ObjectID = "6wT-E8-Tqv"; */
+"6wT-E8-Tqv.normalTitle" = "继续";
+
+/* Class = "UIButton"; normalTitle = "重新开始"; ObjectID = "YtC-FP-Tsf"; */
+"YtC-FP-Tsf.normalTitle" = "重新开始";
+
+/* Class = "UILabel"; text = "最高得分：100"; ObjectID = "eI7-fd-H0m"; */
+"eI7-fd-H0m.text" = "最高得分：100";
