@@ -321,6 +321,7 @@
 				TargetAttributes = {
 					FD6D2F1F1CC629F900401BF4 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = DDP4VPD895;
 					};
 					FD6D2F381CC629F900401BF4 = {
 						CreatedOnToolsVersion = 7.3;
@@ -497,8 +498,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: GuanWen Li (DDP4VPD895)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GuanWen Li (DDP4VPD895)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: GuanWen Li (2T5TR6KLYX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: GuanWen Li (2T5TR6KLYX)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -520,7 +521,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "c040cbb0-62b8-40f3-8a5a-5e1cbda1d161";
+				PROVISIONING_PROFILE = "4c98ca9a-5d22-4237-9094-a9a8fc7b5635";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -543,8 +544,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: GuanWen Li (DDP4VPD895)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GuanWen Li (DDP4VPD895)";
+				CODE_SIGN_IDENTITY = "iPhone Developer: GuanWen Li (2T5TR6KLYX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: GuanWen Li (2T5TR6KLYX)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -559,7 +560,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "c040cbb0-62b8-40f3-8a5a-5e1cbda1d161";
+				PROVISIONING_PROFILE = "4c98ca9a-5d22-4237-9094-a9a8fc7b5635";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -570,14 +571,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: GuanWen Li (DDP4VPD895)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GuanWen Li (DDP4VPD895)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LGW_SpaceWar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.diqidaimu.SpaceWar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c040cbb0-62b8-40f3-8a5a-5e1cbda1d161";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -586,14 +587,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution: GuanWen Li (DDP4VPD895)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GuanWen Li (DDP4VPD895)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LGW_SpaceWar/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.diqidaimu.SpaceWar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c040cbb0-62b8-40f3-8a5a-5e1cbda1d161";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

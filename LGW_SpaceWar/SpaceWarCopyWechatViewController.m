@@ -112,7 +112,7 @@
     [self showGameOverBgView];
     
     //所用时间  秒
-    NSString *useTimes = [NSString stringWithFormat:@"%ld",self.times];
+    NSString *useTimes = [NSString stringWithFormat:@"%ld",(long)self.times];
     [[NSUserDefaults standardUserDefaults] setObject:useTimes forKey:@"useTimes"];
     [[NSUserDefaults standardUserDefaults] synchronize];
     [self setAllTimeHigh];
